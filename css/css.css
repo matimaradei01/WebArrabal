@@ -1,0 +1,171 @@
+.header-inicio{
+
+	background: url(../img/inicio.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 50vh;
+	min-height: 300px;
+
+}
+body{
+	min-height: 100vh;
+	margin: 0;
+	background: linear-gradient(rgb(233, 234, 178),rgb(173, 175, 108),rgb(92, 93, 58));
+}
+h2{
+	text-align: center;
+	color: rgb(124, 123, 57);
+	font-family: Merriweather;
+}
+
+h1{
+	text-align: center;
+	color: rgb(124, 123, 57);
+	font-family: Merriweather;
+	
+}
+.span{
+	background-color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+	border-radius: 6px;
+
+}
+h3{
+	font-family: Merriweather;
+	color: rgb(149, 150, 78);
+	text-align: center;
+}
+
+.h3-final{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+p{
+	font-family: Merriweather;
+	font-size: 25px;
+	text-align: center;
+}
+/*Navegacion*/
+.barra{
+	background-color: rgb(149, 150, 78);
+
+}
+
+.navegacion a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 10px 50px;
+	display: inline-block;
+	font:bold 15px Comic Sans MS;
+	border: 2px solid #656436;
+	border-radius: 10px;
+	transition:background 1s,color 1s;
+}
+a:hover{
+	background:#656436;
+	color: rgb(149, 150, 78);
+}
+/*Slider*/
+.slider{
+	width: auto;
+	margin: 0px;
+	overflow: hidden;
+
+}
+.slider ul{
+	list-style: none;
+	width: 3000px;
+	display: flex;
+
+	animation: slide 15s infinite alternate;
+
+}
+@keyframes slide{
+
+	0%{margin-left: 0px;}
+	20%{margin-left: 0px;}
+	25%{margin-left: -700px;}
+	45%{margin-left: -700px;}
+	50%{margin-left: -1400px;}
+	70%{margin-left: -1400px;}
+	/*75%{margin-left: -2100px;}
+	100%{margin-left: -2100px;}*/
+}
+.slider img{
+	width: 400px;
+	
+}
+
+/*Mapa*/
+.mapa{
+
+    height: 350px;
+    width: 1345px;
+}
+
+
+/*Contenedor*/
+
+.contenedor{
+	text-align: center;
+	background-color: rgb(149, 150, 78);
+
+
+}
+
+#izquierda{
+	float: left;
+	padding-left: 100px;
+
+}
+#medio{
+	float: left;
+	padding-left: 100px;
+
+}
+#derecha{
+	float: left;
+	padding-left: 100px;
+}
+
+.redes{
+    
+    float: right;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: georgia;
+    font-size: 20px;
+    
+}
+.redes li{
+    list-style: none;
+}
+.redes li ul a.fb{
+   text-decoration: none;
+    color: black;
+      
+}
+.redes li ul a.ig{
+    text-decoration: none;
+    color: black;
+    
+}
+.redes li ul a.wp{
+    text-decoration: none;
+    color: black;
+   
+}
+/*GIF*/
+.gif{
+    float : left;
+    padding-left: 200px;
+    border-bottom
+
+}
+
